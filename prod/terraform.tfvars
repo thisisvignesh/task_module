@@ -1,7 +1,7 @@
 cidr        = "10.1.0.0/16"
 vpc         = "vpc"
 subnet      = "subnet"
-sgname      = "dev-2021"
+sgname      = "prod-2021"
 mytag       = "prod_env"
 amiid       = "ami-04ad2567c9e3d7894"
 machinetype = "t2.medium"
