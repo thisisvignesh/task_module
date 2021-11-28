@@ -1,4 +1,3 @@
-
 module "instance_provisioning" {
   source      = "../module"
   cidr        = var.cidr

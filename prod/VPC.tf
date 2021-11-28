@@ -1,4 +1,3 @@
-
 module "instance_provisioning" {
   source      = "../module"
   vpc         = var.vpc
@@ -8,6 +7,7 @@ module "instance_provisioning" {
   subzone     = var.subzone
   rt          = var.rt
   rtcidr      = var.rtcidr
+  sgcidr      = var.sgcidr
   subnetcidr  = var.subnetcidr
   sgprotocol  = var.sgprotocol
   igw         = var.igw
